@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onRestoreInstanceState(savedInstanceState);
         if (savedInstanceState != null && savedInstanceState.containsKey("bgcolor")) {
             color = savedInstanceState.getInt("bgcolor");
-            findViewById(R.id.layout).setBackgroundColor(color);
+            findViewById(R.id.main_layout).setBackgroundColor(color);
         }
     }
 
